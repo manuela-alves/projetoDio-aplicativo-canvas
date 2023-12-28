@@ -1,0 +1,113 @@
+<ImportExportXml version="9.2.23121.166" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>SolucaoTreinamento</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Solução Treinamento" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Solução para projeto" languagecode="1046" />
+    </Descriptions>
+    <Version>1.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dio</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="dio" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>dio</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91430</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="dio_alunospj" behavior="0" />
+      <RootComponent type="1" schemaName="dio_cursos" behavior="0" />
+      <RootComponent type="1" schemaName="dio_cursoxinstrutorespj" behavior="0" />
+      <RootComponent type="1" schemaName="dio_instrutorespj" behavior="0" />
+      <RootComponent type="29" id="{61aaf9b9-1ea1-ee11-a569-6045bd3b2196}" behavior="0" />
+      <RootComponent type="80" schemaName="curso_Treinamento" behavior="0" />
+      <RootComponent type="300" schemaName="dio_appinstrutoreshabilitados_0c2ba" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="curso_cursosdisponiveis" displayName="Cursos Disponíveis" solution="Active" />
+        <Dependent type="80" schemaName="curso_Treinamento" displayName="Treinamento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="29" displayName="PowerAppV2 -&gt; Enviar um email (V2)" solution="Active" id="{c9ebc6aa-fea4-ee11-a569-6045bd3b2196}" />
+        <Dependent type="300" schemaName="dio_appinstrutoreshabilitados_0c2ba" displayName="AppInstrutoresHabilitados" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="curso_Treinamento" displayName="Treinamento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="curso_Treinamento" solution="Active" />
+        <Dependent type="80" schemaName="curso_Treinamento" displayName="Treinamento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2311.4032)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cursospj" id="{894e837e-2a1d-41b1-adf4-f941a1ff791b}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
